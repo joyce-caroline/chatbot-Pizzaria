@@ -1,7 +1,4 @@
 package projetopizzaria;
-import projetopizzaria.Cliente;
-import projetopizzaria.Pizza;
-import projetopizzaria.Pagamento;
 
 import java.util.Scanner;
 

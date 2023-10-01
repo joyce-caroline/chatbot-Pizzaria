@@ -1,6 +1,4 @@
 package projetopizzaria;
-import projetopizzaria.Cliente;
-
 import java.util.Scanner;
 
 public class Pizza {
@@ -73,7 +71,6 @@ public class Pizza {
             default:
                 return "";
         }
-
     }
     public void lerTamanho(){
         int escolhaTamanho = 0;

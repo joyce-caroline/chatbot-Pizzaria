@@ -1,6 +1,5 @@
 package projetopizzaria;
 
-
 import java.util.Scanner;
 
 public class Cliente {

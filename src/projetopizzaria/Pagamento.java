@@ -9,14 +9,17 @@ public class Pagamento {
 
 
     public Pagamento(Scanner scan) {
+
         this.scan = scan;
     }
 
     public String getFormaPagamento() {
+
         return formaPagamento;
     }
 
     public void setFormaPagamento(String formaPagamento) {
+
         this.formaPagamento = formaPagamento;
     }
 
