@@ -42,7 +42,7 @@ public class Pizza {
 
     public void lerSabor(){
         int escolha = 0;
-        System.out.println("É muito bom te ver, " + cliente.getNome() + ". Veja só os sabores disponíveis de hoje:");
+        System.out.println("É muito bom te ver, " +cliente.getNome() + ". Veja só os sabores disponíveis de hoje:");
         System.out.println("1 - Calabresa");
         System.out.println("2 - Portuguesa");
         System.out.println("3 - Frango com Catupiry");
@@ -77,14 +77,14 @@ public class Pizza {
     }
     public void lerTamanho(){
         int escolhaTamanho = 0;
-        System.out.println("Certo! "+ cliente.getNome() +". De qual tamanho você quer sua pizza?");
+        System.out.println("Certo! "+cliente.getNome() +". De qual tamanho você quer sua pizza?");
         System.out.println("1 - Pequena - RS30,00");
         System.out.println("2 - Media - RS35,00");
         System.out.println("3 - Grande - RS 45,00");
         System.out.print("Responda aqui: ");
         escolhaTamanho = scan.nextInt();
         while(escolhaTamanho < 1 || escolhaTamanho > 3) {
-            System.out.println("Por favor digite um tamanho correto:");
+            System.out.println("Por favor escolha um tamanho correto:");
             escolhaTamanho = scan.nextInt();
         }
         setTamanho(deParaTamanho(escolhaTamanho));

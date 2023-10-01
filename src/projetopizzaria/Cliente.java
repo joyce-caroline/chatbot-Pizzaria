@@ -34,7 +34,7 @@ public class Cliente {
     }
 
     public void lerNome(){
-        System.out.println("Digite o seu nome:");
+        System.out.println("Qual o seu nome?");
         setNome(scan.nextLine());
     }
 

@@ -1,6 +1,4 @@
 package projetopizzaria;
-
-
 import java.util.Scanner;
 
 public class Main {
@@ -9,23 +7,22 @@ public class Main {
 
 
     public static void main(String[] args) {
+
         Cliente cliente = new Cliente(scan);
-        cliente.lerNome();
-        cliente.lerEndereco();
-
         Pizza pizza = new Pizza(cliente, scan);
-        pizza.lerSabor();
-        pizza.lerTamanho();
-
         Pagamento pagamento = new Pagamento(scan);
-        pagamento.lerModoPagamento();
-
         Pedido pedido = new Pedido(cliente, pizza, pagamento, scan);
 
+        System.out.println("\nSeja bem-vindo ao atendimento online PizzaBoa!\n");
+
+        cliente.lerNome();
+        pizza.lerSabor();
+        pizza.lerTamanho();
         pedido.lerConsumo();
+        cliente.lerEndereco();
+        pagamento.lerModoPagamento();
         pedido.lerTroco();
         pedido.status();
-
         scan.close();
     }
 }
