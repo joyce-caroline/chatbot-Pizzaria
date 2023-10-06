@@ -1,5 +1,9 @@
 package projetopizzaria;
 import java.util.Scanner;
+import projetopizzaria.Cliente;
+import projetopizzaria.Pagamento;
+import projetopizzaria.Pizza;
+import projetopizzaria.Pedido;
 
 public class Main {
 
