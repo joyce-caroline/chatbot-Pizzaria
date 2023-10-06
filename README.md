@@ -9,7 +9,7 @@ Para executar o sistema, siga as instruções abaixo:
 1. Clone o repositório:
 
    ```shell
-   git clone https://github.com/seu-usuario/projetopizzaria.git
+     git clone https://github.com/joyce-caroline/chatbot-Pizzaria.git
 
 2. Compile o código:
     ```shell
