@@ -11,13 +11,17 @@ Para executar o sistema, siga as instruções abaixo:
    ```shell
      git clone https://github.com/joyce-caroline/chatbot-Pizzaria.git
 
+3. Abra a pasta que contém o package:
+    ```shell
+   cd chatbot-Pizzaria/src
+
 2. Compile o código:
     ```shell
    javac projetopizzaria/Main.java
     
 3. Execute o programa:
     ```shell
-   java projetopizzaria/Main.java
+   java projetopizzaria/Main
 
 4. Siga as instruções no console para fazer um pedido de pizza.
 
